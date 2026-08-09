@@ -1,0 +1,7 @@
+# Civ4 的 XML / Python 全部是 CRLF 行尾。
+# 关闭 git 的一切换行符自动转换：既避免游戏解析异常，
+# 也避免 diff 因为行尾变化而整篇爆红。
+* -text
+
+# DLL 明确标记为二进制，避免任何 diff/合并尝试
+*.dll binary

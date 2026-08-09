@@ -1,0 +1,54 @@
+# ============================================================
+#  Magister Modmod for FfH2 —— 改造版本管理仓库
+#  策略：默认忽略一切，只放行 XML / Python / ini 三类文本配置。
+#  说明见 C:\Users\zsts\workspace\FFH2-chinese\CLAUDE.md
+# ============================================================
+
+# 1) 默认全部忽略；!*/ 让 git 仍能递归进入子目录（否则下面的放行规则不生效）
+*
+!*/
+
+# 2) 放行的文本配置
+!*.xml
+!*.py
+!*.ini
+!.gitignore
+!.gitattributes
+!git-init.bat
+
+# 3) 备份与崩溃残留不进版本库（版本历史本身就是备份）
+#    注意：这几条必须排在 !*/ 之后，否则 Text.bak-orig-* 这类备份目录会被递归收进来
+*.bak-*
+*.bak-*/
+*.bak-l10n
+*.bak-mod
+*.crashed-*
+*.pyc
+*.pyo
+*.orig
+*~
+
+# 4) 大体积二进制目录：里面本来就没有 xml/py，显式排除是为了加快 git 扫描
+/Assets/Art/
+/Assets/res/
+/Assets/sounds/
+/Resource/
+/Trophy/
+
+# 5) 二进制与安装器
+*.dll
+*.FPK
+*.exe
+*.dat
+*.xlsm
+*.lnk
+*.ico
+*.bmp
+*.rtf
+*.CivBeyondSwordWBSave
+
+# 6) 例外：主 DLL 要跟踪
+#    改造 20 对它打过二进制补丁（CvPlot::calculateCulturalOwner，偏移 0x207FFE），
+#    需要版本留痕。只放行主 DLL，不放行 CvGameCoreDLL_Assert.dll（6.5MB 调试版，
+#    从未改动）；.bak-orig-* / .bak-mod-* 备份仍被第 3 节挡在外面。
+!/Assets/CvGameCoreDLL.dll
