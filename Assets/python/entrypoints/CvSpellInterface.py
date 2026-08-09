@@ -1768,7 +1768,7 @@ def effectArda(pCaster):
 			iRankArda = 3
 		else:
 			iRankArda = 0
-		iLevelArda = pCaster.getLevel() / 2.0
+		iLevelArda = pCaster.getLevel() / 2
 		iArda += iRankArda + iLevelArda
 		iX = pCaster.getX()
 		iY = pCaster.getY()
@@ -1809,7 +1809,7 @@ def effectArda(pCaster):
 		iDistanceFromCity = -1
 		iDistanceFromCityModifier = 100
 		dReligionAdjustments = {
-								gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-1,
+								gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-3,
 								gc.getInfoTypeForString('RELIGION_MATRONAE')				:	-17,
 								gc.getInfoTypeForString('RELIGION_CHILDREN_OF_THE_ONE')		:	-21,
 								}
@@ -1865,7 +1865,7 @@ def effectArda(pCaster):
 						gc.getInfoTypeForString('RELIGION_ANOINTED')				:	-5,
 						gc.getInfoTypeForString('RELIGION_THE_ASHEN_VEIL')			:	-5,
 						gc.getInfoTypeForString('RELIGION_COVEN')					:	-5,
-						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-1,
+						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-3,
 						gc.getInfoTypeForString('RELIGION_COUNCIL_OF_ESUS')			:	-10,
 						gc.getInfoTypeForString('RELIGION_MATRONAE')				:	-17,
 						gc.getInfoTypeForString('RELIGION_CHILDREN_OF_THE_ONE')		:	-21
@@ -1911,7 +1911,7 @@ def effectArda(pCaster):
 						gc.getInfoTypeForString('RELIGION_THE_ASHEN_VEIL')			:	-4,
 						gc.getInfoTypeForString('RELIGION_STEWARDS_OF_INEQUITY')	:	-5,
 						gc.getInfoTypeForString('RELIGION_SONS_OF_DISCORD')			:	-5,
-						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-1,
+						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-3,
 						gc.getInfoTypeForString('RELIGION_ANOINTED')				:	-10,
 						gc.getInfoTypeForString('RELIGION_MATRONAE')				:	-17,
 						gc.getInfoTypeForString('RELIGION_CHILDREN_OF_THE_ONE')		:	-21,
@@ -1951,7 +1951,7 @@ def effectArda(pCaster):
 						gc.getInfoTypeForString('RELIGION_ANOINTED')				:	-4,
 						gc.getInfoTypeForString('RELIGION_EMBER_LEGION')			:	-6,
 						gc.getInfoTypeForString('RELIGION_THE_ASHEN_VEIL')			:	-7,
-						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-1,
+						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-3,
 						gc.getInfoTypeForString('RELIGION_COVEN')					:	-10,
 						gc.getInfoTypeForString('RELIGION_MATRONAE')				:	-17,
 						gc.getInfoTypeForString('RELIGION_CHILDREN_OF_THE_ONE')		:	-21,
@@ -1992,7 +1992,7 @@ def effectArda(pCaster):
 						gc.getInfoTypeForString('RELIGION_ANOINTED')				:	-4,
 						gc.getInfoTypeForString('RELIGION_EMBER_LEGION')			:	-6,
 						gc.getInfoTypeForString('RELIGION_THE_ASHEN_VEIL')			:	-7,
-						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-1,
+						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-3,
 						gc.getInfoTypeForString('RELIGION_COVEN')					:	-7,
 						gc.getInfoTypeForString('RELIGION_ETERNAL_CABAL')			:	-10,
 						gc.getInfoTypeForString('RELIGION_CHILDREN_OF_THE_ONE')		:	-21,
@@ -2041,7 +2041,7 @@ def effectArda(pCaster):
 						gc.getInfoTypeForString('RELIGION_ANOINTED')				:	-4,
 						gc.getInfoTypeForString('RELIGION_EMBER_LEGION')			:	-3,
 						gc.getInfoTypeForString('RELIGION_COVEN')					:	-5,
-						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-1,
+						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-3,
 						gc.getInfoTypeForString('RELIGION_THE_ASHEN_VEIL')			:	-10,
 						gc.getInfoTypeForString('RELIGION_MATRONAE')				:	-17,
 						gc.getInfoTypeForString('RELIGION_CHILDREN_OF_THE_ONE')		:	-21,
@@ -2081,7 +2081,7 @@ def effectArda(pCaster):
 						gc.getInfoTypeForString('RELIGION_STEWARDS_OF_INEQUITY')	:	-6,
 						gc.getInfoTypeForString('RELIGION_EMBER_LEGION')			:	-3,
 						gc.getInfoTypeForString('RELIGION_COVEN')					:	-6,
-						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-1,
+						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-3,
 						gc.getInfoTypeForString('RELIGION_OCTOPUS_OVERLORDS')		:	-7,
 						gc.getInfoTypeForString('RELIGION_THE_ASHEN_VEIL')			:	-7,
 						gc.getInfoTypeForString('RELIGION_SONS_OF_DISCORD')			:	-10,
@@ -2125,7 +2125,7 @@ def effectArda(pCaster):
 						gc.getInfoTypeForString('RELIGION_COVEN')					:	-5,
 						gc.getInfoTypeForString('RELIGION_ANOINTED')				:	-6,
 						gc.getInfoTypeForString('RELIGION_STEWARDS_OF_INEQUITY')	:	-7,
-						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-1,
+						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-3,
 						gc.getInfoTypeForString('RELIGION_FOXMEN')					:	-10,
 						gc.getInfoTypeForString('RELIGION_MATRONAE')				:	-17,
 						gc.getInfoTypeForString('RELIGION_CHILDREN_OF_THE_ONE')		:	-21,
@@ -2172,7 +2172,7 @@ def effectArda(pCaster):
 						gc.getInfoTypeForString('RELIGION_EMBER_LEGION')			:	-3,
 						gc.getInfoTypeForString('RELIGION_ANOINTED')				:	-4,
 						gc.getInfoTypeForString('RELIGION_THE_ASHEN_VEIL')			:	-4,
-						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-1,
+						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-3,
 						gc.getInfoTypeForString('RELIGION_UNBLEMISHED')				:	-10,
 						gc.getInfoTypeForString('RELIGION_MATRONAE')				:	-17,
 						gc.getInfoTypeForString('RELIGION_CHILDREN_OF_THE_ONE')		:	-21,
@@ -2214,7 +2214,7 @@ def effectArda(pCaster):
 						gc.getInfoTypeForString('RELIGION_CULT_OF_THE_DRAGON')		:	-2,
 						gc.getInfoTypeForString('RELIGION_OCTOPUS_OVERLORDS')		:	-2,
 						gc.getInfoTypeForString('RELIGION_SONS_OF_DISCORD')			:	-5,
-						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-1,
+						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-3,
 						gc.getInfoTypeForString('RELIGION_CHILDREN_OF_THE_ONE')		:	-21,
 						gc.getInfoTypeForString('RELIGION_MATRONAE')				:	-17,
 						}
@@ -2250,7 +2250,7 @@ def effectArda(pCaster):
 						gc.getInfoTypeForString('RELIGION_ANOINTED')				:	-4,
 						gc.getInfoTypeForString('RELIGION_THE_ASHEN_VEIL')			:	-5,
 						gc.getInfoTypeForString('RELIGION_COUNCIL_OF_ESUS')			:	-6,
-						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-1,
+						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-3,
 						gc.getInfoTypeForString('RELIGION_EMBER_LEGION')			:	-7,
 						gc.getInfoTypeForString('RELIGION_WHITE_HAND')				:	-10,
 						gc.getInfoTypeForString('RELIGION_MATRONAE')				:	-17,
@@ -2311,7 +2311,7 @@ def effectArda(pCaster):
 						gc.getInfoTypeForString('RELIGION_WHITE_HAND')				:	-2,
 						gc.getInfoTypeForString('RELIGION_THE_ASHEN_VEIL')			:	-3,
 						gc.getInfoTypeForString('RELIGION_THE_ORDER')				:	-5,
-						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-1,
+						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-3,
 						gc.getInfoTypeForString('RELIGION_RUNES_OF_KILMORPH')		:	-10,
 						gc.getInfoTypeForString('RELIGION_MATRONAE')				:	-17,
 						gc.getInfoTypeForString('RELIGION_CHILDREN_OF_THE_ONE')		:	-21,
@@ -2370,7 +2370,7 @@ def effectArda(pCaster):
 						gc.getInfoTypeForString('RELIGION_BROTHERHOOD_OF_WARDENS')	:	-3,
 						gc.getInfoTypeForString('RELIGION_RINGGIVER')				:	-3,
 						gc.getInfoTypeForString('RELIGION_UNBLEMISHED')				:	-5,
-						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-1,
+						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-3,
 						gc.getInfoTypeForString('RELIGION_THE_ORDER')				:	-9,
 						gc.getInfoTypeForString('RELIGION_EMBER_LEGION')			:	-10,
 						gc.getInfoTypeForString('RELIGION_MATRONAE')				:	-17,
@@ -2423,7 +2423,7 @@ def effectArda(pCaster):
 						gc.getInfoTypeForString('RELIGION_THE_ORDER')				:	-5,
 						gc.getInfoTypeForString('RELIGION_RINGGIVER')				:	-5,
 						gc.getInfoTypeForString('RELIGION_UNBLEMISHED')				:	-7,
-						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-1,
+						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-3,
 						gc.getInfoTypeForString('RELIGION_THE_EMPYREAN')			:	-10,
 						gc.getInfoTypeForString('RELIGION_MATRONAE')				:	-17,
 						gc.getInfoTypeForString('RELIGION_CHILDREN_OF_THE_ONE')		:	-21,
@@ -2459,7 +2459,7 @@ def effectArda(pCaster):
 						gc.getInfoTypeForString('RELIGION_RINGGIVER')				:	-5,
 						gc.getInfoTypeForString('RELIGION_THE_EMPYREAN')			:	-7,
 						gc.getInfoTypeForString('RELIGION_BROTHERHOOD_OF_WARDENS')	:	-7,
-						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-1,
+						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-3,
 						gc.getInfoTypeForString('RELIGION_FELLOWSHIP_OF_LEAVES')	:	-9,
 						gc.getInfoTypeForString('RELIGION_UNBLEMISHED')				:	-9,
 						gc.getInfoTypeForString('RELIGION_EMBER_LEGION')			:	-9,
@@ -2510,7 +2510,7 @@ def effectArda(pCaster):
 						gc.getInfoTypeForString('RELIGION_UNBLEMISHED')				:	-5,
 						gc.getInfoTypeForString('RELIGION_HOUSE_OF_PLENTY')			:	-5,
 						gc.getInfoTypeForString('RELIGION_THE_ORDER')				:	-5,
-						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-1,
+						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-3,
 						gc.getInfoTypeForString('RELIGION_RUNES_OF_KILMORPH')		:	-7,
 						gc.getInfoTypeForString('RELIGION_MATRONAE')				:	-17,
 						gc.getInfoTypeForString('RELIGION_CHILDREN_OF_THE_ONE')		:	-21,
@@ -2543,7 +2543,7 @@ def effectArda(pCaster):
 						gc.getInfoTypeForString('RELIGION_BROTHERHOOD_OF_WARDENS')	:	-5,
 						gc.getInfoTypeForString('RELIGION_RINGGIVER')				:	-5,
 						gc.getInfoTypeForString('RELIGION_UNBLEMISHED')				:	-5,
-						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-1,
+						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-3,
 						gc.getInfoTypeForString('RELIGION_THE_ORDER')				:	-10,
 						gc.getInfoTypeForString('RELIGION_MATRONAE')				:	-17,
 						gc.getInfoTypeForString('RELIGION_CHILDREN_OF_THE_ONE')		:	-21,
@@ -2591,7 +2591,7 @@ def effectArda(pCaster):
 						gc.getInfoTypeForString('RELIGION_RINGGIVER')				:	-5,
 						gc.getInfoTypeForString('RELIGION_UNBLEMISHED')				:	-5,
 						gc.getInfoTypeForString('RELIGION_HOUSE_OF_PLENTY')			:	-5,
-						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-1,
+						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-3,
 						gc.getInfoTypeForString('RELIGION_BROTHERHOOD_OF_WARDENS')	:	-10,
 						gc.getInfoTypeForString('RELIGION_MATRONAE')				:	-17,
 						gc.getInfoTypeForString('RELIGION_CHILDREN_OF_THE_ONE')		:	-21,
@@ -2627,7 +2627,7 @@ def effectArda(pCaster):
 						gc.getInfoTypeForString('RELIGION_CULT_OF_THE_DRAGON')		:	-2,
 						gc.getInfoTypeForString('RELIGION_ETERNAL_CABAL')			:	-2,
 						gc.getInfoTypeForString('RELIGION_RUNES_OF_KILMORPH')		:	-5,
-						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-1,
+						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-3,
 						gc.getInfoTypeForString('RELIGION_BROTHERHOOD_OF_WARDENS')	:	-7,
 						gc.getInfoTypeForString('RELIGION_RINGGIVER')				:	-7,
 						gc.getInfoTypeForString('RELIGION_UNBLEMISHED')				:	-7,
@@ -2671,7 +2671,7 @@ def effectArda(pCaster):
 						gc.getInfoTypeForString('RELIGION_RINGGIVER')				:	-5,
 						gc.getInfoTypeForString('RELIGION_UNBLEMISHED')				:	-5,
 						gc.getInfoTypeForString('RELIGION_HOUSE_OF_PLENTY')			:	-5,
-						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-1,
+						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-3,
 						gc.getInfoTypeForString('RELIGION_THE_EMPYREAN')			:	-7,
 						gc.getInfoTypeForString('RELIGION_BROTHERHOOD_OF_WARDENS')	:	-7,
 						gc.getInfoTypeForString('RELIGION_OCTOPUS_OVERLORDS')		:	-15,
@@ -2720,7 +2720,7 @@ def effectArda(pCaster):
 						gc.getInfoTypeForString('RELIGION_UNBLEMISHED')				:	-5,
 						gc.getInfoTypeForString('RELIGION_HOUSE_OF_PLENTY')			:	-5,
 						gc.getInfoTypeForString('RELIGION_THE_EMPYREAN')			:	-7,
-						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-1,
+						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-3,
 						gc.getInfoTypeForString('RELIGION_BROTHERHOOD_OF_WARDENS')	:	-7,
 						gc.getInfoTypeForString('RELIGION_RINGGIVER')				:	-15,
 						gc.getInfoTypeForString('RELIGION_CHILDREN_OF_THE_ONE')		:	-21,
@@ -3070,7 +3070,7 @@ def effectArda(pCaster):
 		else:
 			pCaster.setHasPromotion(gc.getInfoTypeForString('PROMOTION_ARDA0'), False)
 			pCaster.setHasPromotion(gc.getInfoTypeForString('PROMOTION_ARDA10'), False)
-			iArda = int(iArda)//len(listArdas)
+			iArda = iArda//len(listArdas)
 			iArda = max(0, iArda)
 			iArda = min(len(listArdas)-1, iArda)
 			iArdaProm = listArdas.pop(iArda)
@@ -3095,10 +3095,10 @@ def helpEffectArda(lpUnits, eSpell):
 			iRankArda = 3
 		else:
 			iRankArda = 0
-		iLevelArda = pCaster.getLevel() / 2.0
+		iLevelArda = pCaster.getLevel() / 2
 		iArda += iRankArda + iLevelArda
 		if iRankArda + iLevelArda != 0:
-			szBuffer += localText.getText("TXT_KEY_TXT_ARDA_FROM", (int(iRankArda + iLevelArda), pCaster.getName(), ))
+			szBuffer += localText.getText("TXT_KEY_TXT_ARDA_FROM", (iRankArda + iLevelArda, pCaster.getName(), ))
 		iX = pCaster.getX()
 		iY = pCaster.getY()
 		pPlot = pCaster.plot()
@@ -3139,7 +3139,7 @@ def helpEffectArda(lpUnits, eSpell):
 		iDistanceFromCity = -1
 		iDistanceFromCityModifier = 100
 		dReligionAdjustments = {
-								gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-1,
+								gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-3,
 								gc.getInfoTypeForString('RELIGION_MATRONAE')				:	-17,
 								gc.getInfoTypeForString('RELIGION_CHILDREN_OF_THE_ONE')		:	-21,
 								}
@@ -3195,7 +3195,7 @@ def helpEffectArda(lpUnits, eSpell):
 						gc.getInfoTypeForString('RELIGION_ANOINTED')				:	-5,
 						gc.getInfoTypeForString('RELIGION_THE_ASHEN_VEIL')			:	-5,
 						gc.getInfoTypeForString('RELIGION_COVEN')					:	-5,
-						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-1,
+						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-3,
 						gc.getInfoTypeForString('RELIGION_COUNCIL_OF_ESUS')			:	-10,
 						gc.getInfoTypeForString('RELIGION_MATRONAE')				:	-17,
 						gc.getInfoTypeForString('RELIGION_CHILDREN_OF_THE_ONE')		:	-21
@@ -3241,7 +3241,7 @@ def helpEffectArda(lpUnits, eSpell):
 						gc.getInfoTypeForString('RELIGION_THE_ASHEN_VEIL')			:	-4,
 						gc.getInfoTypeForString('RELIGION_STEWARDS_OF_INEQUITY')	:	-5,
 						gc.getInfoTypeForString('RELIGION_SONS_OF_DISCORD')			:	-5,
-						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-1,
+						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-3,
 						gc.getInfoTypeForString('RELIGION_ANOINTED')				:	-10,
 						gc.getInfoTypeForString('RELIGION_MATRONAE')				:	-17,
 						gc.getInfoTypeForString('RELIGION_CHILDREN_OF_THE_ONE')		:	-21,
@@ -3281,7 +3281,7 @@ def helpEffectArda(lpUnits, eSpell):
 						gc.getInfoTypeForString('RELIGION_ANOINTED')				:	-4,
 						gc.getInfoTypeForString('RELIGION_EMBER_LEGION')			:	-6,
 						gc.getInfoTypeForString('RELIGION_THE_ASHEN_VEIL')			:	-7,
-						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-1,
+						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-3,
 						gc.getInfoTypeForString('RELIGION_COVEN')					:	-10,
 						gc.getInfoTypeForString('RELIGION_MATRONAE')				:	-17,
 						gc.getInfoTypeForString('RELIGION_CHILDREN_OF_THE_ONE')		:	-21,
@@ -3322,7 +3322,7 @@ def helpEffectArda(lpUnits, eSpell):
 						gc.getInfoTypeForString('RELIGION_ANOINTED')				:	-4,
 						gc.getInfoTypeForString('RELIGION_EMBER_LEGION')			:	-6,
 						gc.getInfoTypeForString('RELIGION_THE_ASHEN_VEIL')			:	-7,
-						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-1,
+						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-3,
 						gc.getInfoTypeForString('RELIGION_COVEN')					:	-7,
 						gc.getInfoTypeForString('RELIGION_ETERNAL_CABAL')			:	-10,
 						gc.getInfoTypeForString('RELIGION_CHILDREN_OF_THE_ONE')		:	-21,
@@ -3371,7 +3371,7 @@ def helpEffectArda(lpUnits, eSpell):
 						gc.getInfoTypeForString('RELIGION_ANOINTED')				:	-4,
 						gc.getInfoTypeForString('RELIGION_EMBER_LEGION')			:	-3,
 						gc.getInfoTypeForString('RELIGION_COVEN')					:	-5,
-						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-1,
+						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-3,
 						gc.getInfoTypeForString('RELIGION_THE_ASHEN_VEIL')			:	-10,
 						gc.getInfoTypeForString('RELIGION_MATRONAE')				:	-17,
 						gc.getInfoTypeForString('RELIGION_CHILDREN_OF_THE_ONE')		:	-21,
@@ -3411,7 +3411,7 @@ def helpEffectArda(lpUnits, eSpell):
 						gc.getInfoTypeForString('RELIGION_STEWARDS_OF_INEQUITY')	:	-6,
 						gc.getInfoTypeForString('RELIGION_EMBER_LEGION')			:	-3,
 						gc.getInfoTypeForString('RELIGION_COVEN')					:	-6,
-						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-1,
+						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-3,
 						gc.getInfoTypeForString('RELIGION_OCTOPUS_OVERLORDS')		:	-7,
 						gc.getInfoTypeForString('RELIGION_THE_ASHEN_VEIL')			:	-7,
 						gc.getInfoTypeForString('RELIGION_SONS_OF_DISCORD')			:	-10,
@@ -3455,7 +3455,7 @@ def helpEffectArda(lpUnits, eSpell):
 						gc.getInfoTypeForString('RELIGION_COVEN')					:	-5,
 						gc.getInfoTypeForString('RELIGION_ANOINTED')				:	-6,
 						gc.getInfoTypeForString('RELIGION_STEWARDS_OF_INEQUITY')	:	-7,
-						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-1,
+						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-3,
 						gc.getInfoTypeForString('RELIGION_FOXMEN')					:	-10,
 						gc.getInfoTypeForString('RELIGION_MATRONAE')				:	-17,
 						gc.getInfoTypeForString('RELIGION_CHILDREN_OF_THE_ONE')		:	-21,
@@ -3502,7 +3502,7 @@ def helpEffectArda(lpUnits, eSpell):
 						gc.getInfoTypeForString('RELIGION_EMBER_LEGION')			:	-3,
 						gc.getInfoTypeForString('RELIGION_ANOINTED')				:	-4,
 						gc.getInfoTypeForString('RELIGION_THE_ASHEN_VEIL')			:	-4,
-						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-1,
+						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-3,
 						gc.getInfoTypeForString('RELIGION_UNBLEMISHED')				:	-10,
 						gc.getInfoTypeForString('RELIGION_MATRONAE')				:	-17,
 						gc.getInfoTypeForString('RELIGION_CHILDREN_OF_THE_ONE')		:	-21,
@@ -3544,7 +3544,7 @@ def helpEffectArda(lpUnits, eSpell):
 						gc.getInfoTypeForString('RELIGION_CULT_OF_THE_DRAGON')		:	-2,
 						gc.getInfoTypeForString('RELIGION_OCTOPUS_OVERLORDS')		:	-2,
 						gc.getInfoTypeForString('RELIGION_SONS_OF_DISCORD')			:	-5,
-						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-1,
+						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-3,
 						gc.getInfoTypeForString('RELIGION_CHILDREN_OF_THE_ONE')		:	-21,
 						gc.getInfoTypeForString('RELIGION_MATRONAE')				:	-17,
 						}
@@ -3580,7 +3580,7 @@ def helpEffectArda(lpUnits, eSpell):
 						gc.getInfoTypeForString('RELIGION_ANOINTED')				:	-4,
 						gc.getInfoTypeForString('RELIGION_THE_ASHEN_VEIL')			:	-5,
 						gc.getInfoTypeForString('RELIGION_COUNCIL_OF_ESUS')			:	-6,
-						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-1,
+						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-3,
 						gc.getInfoTypeForString('RELIGION_EMBER_LEGION')			:	-7,
 						gc.getInfoTypeForString('RELIGION_WHITE_HAND')				:	-10,
 						gc.getInfoTypeForString('RELIGION_MATRONAE')				:	-17,
@@ -3641,7 +3641,7 @@ def helpEffectArda(lpUnits, eSpell):
 						gc.getInfoTypeForString('RELIGION_WHITE_HAND')				:	-2,
 						gc.getInfoTypeForString('RELIGION_THE_ASHEN_VEIL')			:	-3,
 						gc.getInfoTypeForString('RELIGION_THE_ORDER')				:	-5,
-						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-1,
+						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-3,
 						gc.getInfoTypeForString('RELIGION_RUNES_OF_KILMORPH')		:	-10,
 						gc.getInfoTypeForString('RELIGION_MATRONAE')				:	-17,
 						gc.getInfoTypeForString('RELIGION_CHILDREN_OF_THE_ONE')		:	-21,
@@ -3700,7 +3700,7 @@ def helpEffectArda(lpUnits, eSpell):
 						gc.getInfoTypeForString('RELIGION_BROTHERHOOD_OF_WARDENS')	:	-3,
 						gc.getInfoTypeForString('RELIGION_RINGGIVER')				:	-3,
 						gc.getInfoTypeForString('RELIGION_UNBLEMISHED')				:	-5,
-						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-1,
+						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-3,
 						gc.getInfoTypeForString('RELIGION_THE_ORDER')				:	-9,
 						gc.getInfoTypeForString('RELIGION_EMBER_LEGION')			:	-10,
 						gc.getInfoTypeForString('RELIGION_MATRONAE')				:	-17,
@@ -3753,7 +3753,7 @@ def helpEffectArda(lpUnits, eSpell):
 						gc.getInfoTypeForString('RELIGION_THE_ORDER')				:	-5,
 						gc.getInfoTypeForString('RELIGION_RINGGIVER')				:	-5,
 						gc.getInfoTypeForString('RELIGION_UNBLEMISHED')				:	-7,
-						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-1,
+						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-3,
 						gc.getInfoTypeForString('RELIGION_THE_EMPYREAN')			:	-10,
 						gc.getInfoTypeForString('RELIGION_MATRONAE')				:	-17,
 						gc.getInfoTypeForString('RELIGION_CHILDREN_OF_THE_ONE')		:	-21,
@@ -3789,7 +3789,7 @@ def helpEffectArda(lpUnits, eSpell):
 						gc.getInfoTypeForString('RELIGION_RINGGIVER')				:	-5,
 						gc.getInfoTypeForString('RELIGION_THE_EMPYREAN')			:	-7,
 						gc.getInfoTypeForString('RELIGION_BROTHERHOOD_OF_WARDENS')	:	-7,
-						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-1,
+						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-3,
 						gc.getInfoTypeForString('RELIGION_FELLOWSHIP_OF_LEAVES')	:	-9,
 						gc.getInfoTypeForString('RELIGION_UNBLEMISHED')				:	-9,
 						gc.getInfoTypeForString('RELIGION_EMBER_LEGION')			:	-9,
@@ -3840,7 +3840,7 @@ def helpEffectArda(lpUnits, eSpell):
 						gc.getInfoTypeForString('RELIGION_UNBLEMISHED')				:	-5,
 						gc.getInfoTypeForString('RELIGION_HOUSE_OF_PLENTY')			:	-5,
 						gc.getInfoTypeForString('RELIGION_THE_ORDER')				:	-5,
-						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-1,
+						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-3,
 						gc.getInfoTypeForString('RELIGION_RUNES_OF_KILMORPH')		:	-7,
 						gc.getInfoTypeForString('RELIGION_MATRONAE')				:	-17,
 						gc.getInfoTypeForString('RELIGION_CHILDREN_OF_THE_ONE')		:	-21,
@@ -3873,7 +3873,7 @@ def helpEffectArda(lpUnits, eSpell):
 						gc.getInfoTypeForString('RELIGION_BROTHERHOOD_OF_WARDENS')	:	-5,
 						gc.getInfoTypeForString('RELIGION_RINGGIVER')				:	-5,
 						gc.getInfoTypeForString('RELIGION_UNBLEMISHED')				:	-5,
-						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-1,
+						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-3,
 						gc.getInfoTypeForString('RELIGION_THE_ORDER')				:	-10,
 						gc.getInfoTypeForString('RELIGION_MATRONAE')				:	-17,
 						gc.getInfoTypeForString('RELIGION_CHILDREN_OF_THE_ONE')		:	-21,
@@ -3921,7 +3921,7 @@ def helpEffectArda(lpUnits, eSpell):
 						gc.getInfoTypeForString('RELIGION_RINGGIVER')				:	-5,
 						gc.getInfoTypeForString('RELIGION_UNBLEMISHED')				:	-5,
 						gc.getInfoTypeForString('RELIGION_HOUSE_OF_PLENTY')			:	-5,
-						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-1,
+						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-3,
 						gc.getInfoTypeForString('RELIGION_BROTHERHOOD_OF_WARDENS')	:	-10,
 						gc.getInfoTypeForString('RELIGION_MATRONAE')				:	-17,
 						gc.getInfoTypeForString('RELIGION_CHILDREN_OF_THE_ONE')		:	-21,
@@ -3957,7 +3957,7 @@ def helpEffectArda(lpUnits, eSpell):
 						gc.getInfoTypeForString('RELIGION_CULT_OF_THE_DRAGON')		:	-2,
 						gc.getInfoTypeForString('RELIGION_ETERNAL_CABAL')			:	-2,
 						gc.getInfoTypeForString('RELIGION_RUNES_OF_KILMORPH')		:	-5,
-						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-1,
+						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-3,
 						gc.getInfoTypeForString('RELIGION_BROTHERHOOD_OF_WARDENS')	:	-7,
 						gc.getInfoTypeForString('RELIGION_RINGGIVER')				:	-7,
 						gc.getInfoTypeForString('RELIGION_UNBLEMISHED')				:	-7,
@@ -4001,7 +4001,7 @@ def helpEffectArda(lpUnits, eSpell):
 						gc.getInfoTypeForString('RELIGION_RINGGIVER')				:	-5,
 						gc.getInfoTypeForString('RELIGION_UNBLEMISHED')				:	-5,
 						gc.getInfoTypeForString('RELIGION_HOUSE_OF_PLENTY')			:	-5,
-						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-1,
+						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-3,
 						gc.getInfoTypeForString('RELIGION_THE_EMPYREAN')			:	-7,
 						gc.getInfoTypeForString('RELIGION_BROTHERHOOD_OF_WARDENS')	:	-7,
 						gc.getInfoTypeForString('RELIGION_OCTOPUS_OVERLORDS')		:	-15,
@@ -4050,7 +4050,7 @@ def helpEffectArda(lpUnits, eSpell):
 						gc.getInfoTypeForString('RELIGION_UNBLEMISHED')				:	-5,
 						gc.getInfoTypeForString('RELIGION_HOUSE_OF_PLENTY')			:	-5,
 						gc.getInfoTypeForString('RELIGION_THE_EMPYREAN')			:	-7,
-						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-1,
+						gc.getInfoTypeForString('RELIGION_GREY_COUNCIL')			:	-3,
 						gc.getInfoTypeForString('RELIGION_BROTHERHOOD_OF_WARDENS')	:	-7,
 						gc.getInfoTypeForString('RELIGION_RINGGIVER')				:	-15,
 						gc.getInfoTypeForString('RELIGION_CHILDREN_OF_THE_ONE')		:	-21,
@@ -4346,7 +4346,7 @@ def helpEffectArda(lpUnits, eSpell):
 		else:
 			# iArda = max(0, iArda)
 			# iArda = min(100, iArda)
-			iArda = int(iArda)//len(listArdas)
+			iArda = iArda//len(listArdas)
 			# iArda = max(0, iArda)
 			iArda = min(len(listArdas)-1, iArda)
 			iArdaProm = listArdas.pop(iArda)
