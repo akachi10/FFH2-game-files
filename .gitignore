@@ -16,6 +16,9 @@
 !.gitattributes
 !git-init.bat
 
+# 仓库自身的说明文档（只放行根目录这一份，不含模组自带的 mnai_changelog.md 等）
+!/README.md
+
 # 3) 备份与崩溃残留不进版本库（版本历史本身就是备份）
 #    注意：这几条必须排在 !*/ 之后，否则 Text.bak-orig-* 这类备份目录会被递归收进来
 *.bak-*
